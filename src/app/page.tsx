@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col place-items-center text-center p-10 mt-12 lg:max-w-2xl outline-dotted outline-slate-500 rounded-xl">
           <h2 className="text-2xl font-bold">About Mashimaro</h2>
-          <p>Mashimaro is squishiest rabbit on Solana. He is mischievous but sweet-natured, and his name comes from the word "marshmallow" as a Japanese person might pronounce it.</p>
+          <p>Mashimaro is squishiest rabbit on Solana. He is mischievous but sweet-natured, and his name comes from the word &quot;marshmallow&quot; as a Japanese person might pronounce it.</p>
         </div>
       </div>
       <div id="buy" className="relative flex flex-col place-items-center">
