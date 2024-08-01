@@ -30,7 +30,14 @@ export default function Home() {
       >
         <code className="font-mono font-bold">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</code>
       </div>
-      <div>
+      <div className="flex flex-col items-center gap-4">
+        <Image
+          src="/images/token.png"
+          alt="Mashimaro"
+          width={40}
+          height={40}
+          priority
+        />
         <h1 className="text-4xl raised font-bold">$MASHI on Sol</h1>
       </div>
       <div id="about" className="relative flex flex-col place-items-center">
