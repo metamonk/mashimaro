@@ -77,7 +77,7 @@ export default function Home() {
               height={400}
               priority
           />
-          <p className="text-sm text-muted-foreground p-1">Let's catch the stars together!</p>
+          <p className="text-sm text-muted-foreground p-1">Let&apos;s catch the stars together!</p>
           <div className="mt-4 grid grid-cols-2 gap-2">
             <a href="https://t.me/mashimaro">
               <Button>
