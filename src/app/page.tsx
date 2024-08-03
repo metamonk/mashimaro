@@ -101,7 +101,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="disclaimer" className="flex flex-col place-items-center pb-24">
+      <div id="disclaimer" className="flex flex-col place-items-center py-24">
         <p className="max-w-2xl text-xs text-center text-muted-foreground">Disclaimer: $MASHI on Sol is a meme coin created for entertainment purposes. This is not financial advice. Only invest what you can afford to lose and enjoy the ride!</p>
       </div>
       <div className="fixed bottom-0 left-0 right-0 bg-accent z-50">
