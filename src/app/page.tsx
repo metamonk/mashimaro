@@ -11,37 +11,39 @@ export default function Home() {
   };
   
   return (
-    <main className="flex flex-col items-center gap-12 py-8 px-4 relative">
-      {/* <div className="z-10 w-full max-w-3xl items-center justify-between lg:flex">
-      </div> */}
-      <div
-        className="
-          justify-center
-          bg-accent
-          backdrop-blur-2xl
-          cursor-pointer
-          w-auto
-          rounded-xl
-          border
-          p-4
-          mt-4
-        "
-        onClick={handleCopy}
-      >
-        <code className="font-mono font-bold">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</code>
-      </div>
-      <div className="flex flex-col items-center gap-4">
-        <Image
-          src="/images/token.png"
-          alt="Mashimaro"
-          width={40}
-          height={40}
-          priority
-        />
-        <h1 className="text-4xl raised font-bold">$MASHI on Sol</h1>
+    <main className="flex flex-col items-center relative">
+      <div className="w-full bg-cover bg-center flex flex-col items-center justify-center hero-bg py-24">
+        <div className="flex flex-col items-center gap-8">
+          <Image
+            className="shadow-xl rounded-full border-4 border-primary-foreground"
+            src="/images/token.png"
+            alt="Mashimaro"
+            width={200}
+            height={200}
+            priority
+          />
+          <h1 className="text-4xl raised font-black text-primary-foreground">$MASHI on Sol</h1>
+          <div
+            className="
+              justify-center
+              bg-primary
+              backdrop-blur-2xl
+              cursor-pointer
+              w-auto
+              rounded-xl
+              border-4
+              border-primary-foreground
+              p-4
+              mb-8
+            "
+            onClick={handleCopy}
+          >
+            <code className="font-mono font-bold">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</code>
+          </div>
+        </div>
       </div>
       <div id="about" className="relative flex flex-col place-items-center">
-        <div className="relative">
+        <div className="relative mt-24">
           <Image
             className="relative z-10"
             src="/images/full-body.svg"

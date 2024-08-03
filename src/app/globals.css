@@ -49,12 +49,9 @@
     0 3px 0 #ffffff,
     0 4px 0 #ffffff,
     0 5px 0 #ffffff,
-    /* 0 6px 0 #ccc,
-    0 7px 0 #ccc,
-    0 8px 0 #ccc,
-    0 9px 0 #ccc,
-    0 10px 0 #ccc,
-    0 11px 0 #ccc,
-    0 12px 0 #ccc, */
     0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-bg {
+  background-image: url('/images/hero-bg.svg');
 }

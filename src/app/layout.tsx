@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Grandstander } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
-const font = Grandstander({ subsets: ["latin"] });
+const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mashimaro",
-  description: "The bizarre rabbit on Solana",
+  description: "The squishiest rabbit on Solana",
 };
 
 export default function RootLayout({
